@@ -3,8 +3,8 @@
     "buggy_method":[[1475,1494]],
     "buggy_line":[[1482,1485]],
     "bug_type": "deletion",
-    "compile_cmd": "mvn install -DskipTests",
-    "test_cmd" : "mvn test -pl test -Dtest=Security380Test",
+    "compile_cmd": "mvn clean install -DskipTests",
+    "test_cmd" : "mvn clean test -pl test -Dtest=Security380Test",
     "CVE": "CVE-2017-2606",
     "github_url":"https://github.com/jenkinsci/jenkins"
 }
