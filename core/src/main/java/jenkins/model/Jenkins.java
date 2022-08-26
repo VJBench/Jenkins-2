@@ -314,7 +314,7 @@ import hudson.util.LogTaskListener;
 import static java.util.logging.Level.*;
 import static javax.servlet.http.HttpServletResponse.*;
 import org.kohsuke.stapler.WebMethod;
-
+import java.lang.Math.*;
 /**
  * Root object of the system.
  *
